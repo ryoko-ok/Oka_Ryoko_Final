@@ -5,13 +5,13 @@ The book shop is not only selling books, they are supporting London artists too.
 
 
 ### Pages
-1.Home
+1. Home
 	This is the main page of this site
-2.About
+2. About
 	About the book shop introduction
-3.Books
+3. Books
 	Books categories
-4.Contact
+4. Contact
 	Location and contact
 
 ## Authors
