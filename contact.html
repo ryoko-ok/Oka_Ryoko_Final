@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brown and Dickson Bookstore</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/navbar.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/footer.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/contact_map.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+
+<body>
+  <div id="siteContainer"><!--open container-->
+
+	   <header>
+      <div id='footerNavmenu'><!-- open nav -->
+      <ul>
+        <li><a href='index.html'><span>Home</span></a></li>
+        <li><a href='about.html'><span>About</span></a></li>
+        <li><a href='books.html'><span>Books</span></a></li>
+        <li class='last'><a href='' class="active"><span>Contact</span></a></li>
+      </ul>
+      </div><!-- end nav -->
+      </header><!--end mainHeader-->
+
+      <section class="hero heroContact">
+        <h2 class="hidden">Contact main image</h2>
+      </section>  
+
+      <div id="title2"><!--open title-->
+        <div id="titlebox2">
+        <h1>Contact Us</h1>
+        <p>We are located in London Downtown</p>
+      </div>
+      </div><!--end title-->
+
+        <main>
+          <h2 class="hidden">Contact info and Map Area</h2>
+        <section id="mainContact"> <!--start mainGallery-->
+          <h3 class="hidden">Contact Information</h3>
+          <section id="contactArea"><!--start contactArea-->
+                <h2>Contact form</h2>
+                    <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+          </section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+                <h2>Visit Us</h2>
+                <h3>Brown & Dickson Bookshop</h3>
+                <p>567 Richmond Street, London, Ontario, Canada N6A 3G2<br>
+                +1(226)667-4977<br>
+                books@brownanddickson.com<br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4713855653354!2d-81.25311358494345!3d42.98940777914958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21cade32e65%3A0x207739ba8f9ab08d!2sBrown%20%26%20Dickson%20Bookstore!5e0!3m2!1sen!2sca!4v1575748413629!5m2!1sen!2sca" width="420" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+    </main>
+
+
+      <div id='mainNavmenu'><!-- open nav -->
+      <ul>
+        <li><a href='index.html'><span>Home</span></a></li>
+        <li><a href='about.html'><span>About</span></a></li>
+        <li><a href='books.html'><span>Books</span></a></li>
+        <li class='last'><a href='' class="active"><span>Contact</span></a></li>
+      </ul>
+      </div><!-- end nav -->
+
+    <footer class="mainFooter"><!-- open mainfooter -->
+        <img src="images/bnd_logo.svg" alt="Brown and Dickson Logo">
+
+        <div class="copyright">
+            <img src="images/address.svg" alt="address"> 567 Richmond Street, London, Ontario, Canada N6A 3G2 <br>
+            <img src="images/tel.svg" alt="tel"> 226-667-4977
+            <img src="images/email.svg" alt="e-mail"> books@brownanddickson.com<br>
+            Copyright 2019 by Ryoko Oka. All Rights Reserved.
+        </div>
+
+        <div class="socialMedia">
+            <h2 class="hidden">Social Media</h2>
+            <ul id="iconNav">
+                <li id="facebook">
+                  <a href="https://www.facebook.com/brownanddickson/">
+                    <img src="images/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li id="twitter">
+                  <a href="https://twitter.com/brownanddickson">
+                    <img src="images/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li id="instagram">
+                  <a href="https://www.instagram.com/brownanddickson/">
+                    <img src="images/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+            </ul>
+        </div>     
+
+      </footer><!--end mainFooter-->
+
+    </div>
+
+
+</body>
+</html>

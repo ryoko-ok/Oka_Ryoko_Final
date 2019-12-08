@@ -1,0 +1,91 @@
+#mainNavmenu {
+  text-align: center;
+  background: brown;
+  width: auto;
+}
+#mainNavmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#mainNavmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#mainNavmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#mainNavmenu.align-right ul li {
+  float: right;
+}
+#mainNavmenu.align-center ul {
+  text-align: center;
+}
+#mainNavmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#mainNavmenu ul li a:hover {
+  color: #CBBA9C;
+}
+#mainNavmenu ul li a:hover:before {
+  width: 100%;
+}
+
+#mainNavmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #CBBA9C;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#mainNavmenu ul li.last > a:after,
+#mainNavmenu ul li:last-child > a:after {
+  display: none;
+}
+#mainNavmenu ul li.active a {
+  color: #CBBA9C;
+}
+#mainNavmenu ul li.active a:before {
+  width: 100%;
+}
+#mainNavmenu.align-right li.last > a:after,
+#mainNavmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#mainNavmenu.align-right li:first-child a:after {
+  display: none;
+}
+
+.active {
+  background-color: lightcoral;
+}
