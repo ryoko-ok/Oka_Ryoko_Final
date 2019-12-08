@@ -229,7 +229,6 @@ a:hover, a:active {
   color: white;
   background-color: brown;
   padding: 8px 0px 8px 5px;
-
 }
 
 .resources h3:hover {
@@ -392,7 +391,7 @@ a:hover, a:active {
 
 
 #content3 {
-  height: 450px;
+  height: auto;
   width: 420px;
   margin-left: 50px;
 }
@@ -402,7 +401,7 @@ a:hover, a:active {
 }
 
 #content4 {
-  height: 450px;
+  height: auto;
   margin: 0px 50px 0px 0px;
   width: 420px;
 }
@@ -410,6 +409,26 @@ a:hover, a:active {
 .content4 img {
   border: 5px solid lightcoral;
 }
+
+#content5 {
+  text-align: center;
+  width: 420px;
+}
+
+.content5 img {
+  border: 5px solid lightcoral;
+}
+
+#content6 {
+  width: 420px;
+  margin: 0px 30px 0px 0px;
+
+}
+
+.content6 img {
+  border: 5px solid lightcoral;
+}
+
 
 .ribbon {
    width: 553px;
